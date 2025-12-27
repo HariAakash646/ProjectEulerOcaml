@@ -1,0 +1,6 @@
+*.cmi
+*.cmo
+*.exe
+out
+.vscode/*
+.ocamlformat
