@@ -8,3 +8,5 @@ let num =
 ;;
 
 print_int (List.fold_left (fun acc x -> acc + x) 0 num)
+
+(* Compile with `ocamlfind ocamlopt -linkpkg -package zarith p16.ml -o out` *)
